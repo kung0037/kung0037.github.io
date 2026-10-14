@@ -6,3 +6,12 @@ body {
 header, footer {
     background-color: rgb(0, 170, 210);
 }
+
+.site-title {
+    color: rgb(50, 50, 235);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
