@@ -18,9 +18,9 @@
         </header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Story</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">STORY</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
         <!-- article with text around the image -->
@@ -52,8 +52,35 @@
         <!-- contact form box -->
         <h2>Contact to learn more</h2>
         <form>
+            <div>
+                <label for="fullname">Your Name</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <p>Would you like to visit the starfish?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="visit" value="yes">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="visit" value="no">
+            <label for="maybe">Maybe</label>
+            <input type="radio" id="maybe" name="visit" value="maybe">
+
+            <input type="submit" value="SEND" class="send">
 
         </form>
+
+        <footer>
+            <p>&copy; Lone Starfish.</p>
+        </footer>
+
     </div>
 </body>
 

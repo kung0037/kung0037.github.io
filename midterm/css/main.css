@@ -3,10 +3,9 @@ body {
     background-color: #aad4cf;
 }
 
-
 .wrapper {
     width: 1024px;
-    background-color: white;
+    background-color: #d4e9e7;
     margin: 0 auto;
 }
 
@@ -17,7 +16,9 @@ header img {
 
 h1 {
     position: absolute;
-    top: 150px;
+    font-weight: normal;
+    font-size: 4rem;
+    top: 155px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -29,16 +30,31 @@ header {
     position: relative;
 }
 
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+article h2 {
+    margin-left: 0;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+
 nav ul {
     list-style-type: none;
     padding-left: 0;
+    margin: 0 0 5px;
 }
 
 nav li {
     display: inline-block;
     width: 330px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    padding: 8px 0;
     border-right: 1px solid black;
 }
 
@@ -55,8 +71,58 @@ nav a {
 article img {
     float: left;
     width: 250px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+article {
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+article p {
+    font-size: 17.5px;
 }
 
 .facts {
     clear: left;
+    padding-left: 25px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+form div label {
+    display: block;
+}
+
+form div input {
+    width: 99.3%;
+}
+
+form div textarea {
+    resize: none;
+    width: 99.5%;
+    height: 60px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.send {
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4e9e7;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: right;
+    padding: 15px 40px 15px 15px;
 }
