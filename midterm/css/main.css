@@ -1,9 +1,15 @@
 body {
-
+    background-color: #aad4cf;
 }
 
 
 .wrapper {
     width: 1024px;
+    background-color: white;
     margin: 0 auto;
+}
+
+header img {
+    /* make image responsive */
+    max-width: 100%;
 }
