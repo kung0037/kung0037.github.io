@@ -28,3 +28,21 @@ h1 {
 header {
     position: relative;
 }
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 330px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-right: 1px solid black;
+}
+
+
+nav li:last-child {
+    border-right: none;
+}
