@@ -51,3 +51,8 @@ nav a {
     color: black;
     text-decoration: none;
 }
+
+article img {
+    float: left;
+    width: 250px;
+}
